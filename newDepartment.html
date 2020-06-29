@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Add New Department</title>
+
+    <!-- Material Design Icons -->
+    <link rel="stylesheet" href="assets/MaterialDesign-Webfont-master/css/materialdesignicons.min.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="assets/css/bootstrap-material-design.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+<body>
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-fixed-top">
+
+	    <div class="container">
+
+	        <div class="navbar-header">
+	          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	            <span class="sr-only">Toggle navigation</span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	          </button>
+	          <a class="navbar-brand" href="index.html"><strong>IDSTL</strong></a>
+	        </div>
+
+	        <div id="navbar" class="navbar-collapse collapse">
+
+		        <ul class="nav navbar-nav navbar-right index-nav">
+		            <li><a href="index.html">Home</a></li>
+                <li><a href="">Logout</a></li>
+		        </ul>
+
+	        </div><!-- /.nav-collapse -->
+
+	    </div>
+
+    </nav><!-- /.Navbar -->
+
+
+   	<div class="container-fluid main-dashboard">
+
+      <div class="row">
+
+        <div class="col-sm-3 col-md-2 sidebar">
+
+          <ul class="nav nav-sidebar">
+            <li><a href="departments.html">All Departments</a></li>
+            <li class="active"><a href="#">Add New Department<span class="sr-only">(current)</span></a></li>
+            <li><a href="assignUser.html">Assign User Department</a></li>
+            <li><a href="addMember.html">Add New User</a></li>
+            <li><a href="posts.html">Posts</a></li>
+          </ul>
+
+        </div>
+
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+
+          <div class="company-name">
+            <h2>ADD NEW DEPARTMENT</h2>
+          </div>
+
+          <div class="card card-block add-form departments">
+            
+            <form>
+
+              <div class="form-group">
+                <input type="name" class="form-control" id="department" placeholder="Department Name" autofocus="">
+              </div>
+
+              <div class="form-group">
+                <textarea cols="3" class="form-control" placeholder="Description"></textarea>
+              </div>
+
+              <div>
+                <button type="submit" class="btn btn-danger btn-raised">Add Department</button>
+              </div>
+
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+    
+
+    <!-- SCRIPTS -->
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="assets/js/jquery-3.1.1.min.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Matrial JavaScript -->
+    <script type="text/javascript" src="assets/js/material.min.js"></script>
+
+
+</body>
+</html>
